@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Part-3</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name"><br><br>
+        <input type="text" placeholder="Job"><br><br>
+        <input list="Books">
+        <datalist id="Books">
+            <option value="Books"></option>
+            <option value="Algebric formulas"></option>
+            <option value="Machine Learning"></option>
+            <option value="Artificial Intelligence"></option>
+        </datalist>
+        <br><br><br>
+        <textarea name="Program" id="Prog" cols="30" rows="10"></textarea>
+        <button type="button" onclick="alert('Application submitted Successfully!')">
+            Submit
+        </button>
+    </form>   
+</body>
+</html>
